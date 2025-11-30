@@ -1,5 +1,7 @@
 # JokenPô - NASA Edition
 
+🎮 **[Jogar Agora / Play Now](http://digitaleducacao.com.br/joquem-po/)** 🚀
+
 ## Overview
 
 JokenPô - NASA Edition is a modern, space-themed implementation of the classic Rock-Paper-Scissors game. This project combines the traditional game mechanics with a visually stunning interface inspired by NASA and space exploration.
@@ -26,6 +28,10 @@ The application features dynamic background images sourced from Unsplash, provid
 -   **CSS3**: Custom styling including CSS variables, Flexbox, animations, and media queries.
 -   **JavaScript (ES6+)**: Game logic, DOM manipulation, and event handling.
 -   **Google Fonts**: 'Orbitron' for headers and 'Roboto' for body text.
+
+## Live Demo
+
+🌐 **Jogue online:** [http://digitaleducacao.com.br/joquem-po/](http://digitaleducacao.com.br/joquem-po/)
 
 ## Setup and Usage
 
