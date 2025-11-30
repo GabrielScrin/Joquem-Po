@@ -111,4 +111,4 @@ Isso criará uma pasta `dist/` com **apenas** os 3 arquivos necessários. Basta 
 
 ---
 
-*Developed with 🚀 for the DevClub community.*
+*Desenvolvido por mim, inspirado pela comunidade DevClub* 🚀
