@@ -133,3 +133,13 @@ buttons.forEach(button => {
 
 // Initialize
 setRandomBackground();
+
+// Export for testing
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        playHuman,
+        playMachine,
+        playTheGame,
+        setRandomBackground
+    };
+}
