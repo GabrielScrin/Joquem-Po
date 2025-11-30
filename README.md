@@ -71,6 +71,38 @@ Simply open the `index.html` file in your web browser.
 
 The source code is fully documented with JSDoc comments. You can review `script.js` to understand the underlying logic and function purposes.
 
+## Deployment / Como colocar no seu domínio
+
+### 📦 Arquivos necessários
+
+Para fazer o deploy do jogo no seu servidor/domínio, você precisa **apenas** destes 3 arquivos:
+
+-   `index.html`
+-   `style.css`
+-   `script.js`
+
+**⚠️ NÃO envie** os arquivos de desenvolvimento:
+-   ❌ `node_modules/` (pasta de dependências)
+-   ❌ `package.json` e `package-lock.json`
+-   ❌ `script.test.js` (testes)
+-   ❌ `build.bat`
+
+### 🚀 Método 1: Manual
+
+1.  Copie apenas os 3 arquivos listados acima
+2.  Cole na pasta `public_html` (ou equivalente) do seu servidor
+3.  Acesse seu domínio!
+
+### 🚀 Método 2: Usando o script de build (Recomendado)
+
+Execute o comando:
+
+```bash
+npm run build
+```
+
+Isso criará uma pasta `dist/` com **apenas** os 3 arquivos necessários. Basta compactar essa pasta e enviar para o seu servidor.
+
 ---
 
 *Developed with 🚀 for the DevClub community.*
